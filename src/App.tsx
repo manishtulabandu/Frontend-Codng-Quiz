@@ -1,14 +1,21 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./Components/Home";
+import SQLExercises from "./Components/SQLQuiz";
+import JavaExercises from "./Components/JavaQuiz";
+import Results from "./Components/Results";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="container">
-      <header className="header">
-        <h1>SQL Drill Practice</h1>
-      </header>
-      {/* Rest of your components */}
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/sql-quiz" element={<SQLExercises />} />
+        <Route path="/java-quiz" element={<JavaExercises />} />
+        <Route path="/results" element={<Results />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
