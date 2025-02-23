@@ -1,4 +1,38 @@
-# Getting Started with Create React App
+
+---
+
+### **Frontend - README.md**
+```markdown
+# 🚀 SQL & Java Interactive Quiz Platform - Frontend
+
+This is the **frontend** for the SQL & Java Interactive Quiz Platform, built with **React (TypeScript)**. Users can take quizzes, receive AI-generated hints, and track their scores in a visually engaging UI.
+
+## 🎯 Features
+✅ **SQL & Java Quizzes**: Interactive multiple-choice quizzes.  
+✅ **AI-Generated Hints**: Hints provided dynamically using AI APIs.  
+✅ **Animated UI**: Built with **Framer Motion** for smooth animations.  
+✅ **Real-Time Feedback**: Users get immediate results after selecting answers.  
+✅ **Results Summary**: Displays **correct answers, explanations, and scores**.  
+✅ **Search & Filter**: Users can search quiz topics on the **home screen**.  
+✅ **Responsive Design**: Works on **desktop, tablet, and mobile devices**.  
+
+---
+
+## 🛠 Tech Stack
+- **React (TypeScript)** ⚛  
+- **Framer Motion** (Smooth UI animations)  
+- **React Router DOM** (Page navigation)  
+- **Tailwind CSS** (Modern styling)  
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/yourusername/sql-java-quiz-frontend.git
+cd sql-java-quiz-frontend
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
