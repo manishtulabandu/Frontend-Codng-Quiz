@@ -30,7 +30,7 @@ This is the **frontend** for the SQL & Java Interactive Quiz Platform, built wit
 
 ### 1️⃣ **Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/sql-java-quiz-frontend.git
+git clone https://github.com/manishtulabandu/sql-java-quiz-frontend.git
 cd sql-java-quiz-frontend
 
 
